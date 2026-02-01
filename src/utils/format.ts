@@ -26,5 +26,5 @@ export function formatPercent(value: number): string {
 }
 
 export function formatNumber(value: number): string {
-  return new Intl.NumberFormat('en-US').format(value);
+  return new Intl.NumberFormat("en-US").format(value);
 }
